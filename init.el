@@ -2,8 +2,10 @@
 (put 'upcase-region 'disabled nil)
 ;; (setq-default indent-tabs-mode nil)
 
-(dolist (f (file-expand-wildcards "~/.emacs.d/config/*.el" t))
-        (load f))
+;; (dolist (f (file-expand-wildcards "~/.emacs.d/config/*.el" t))
+;;         (load f))
+
+(mapc #'load (file-expand-wildcards "~/.emacs.d/config/*.el"))
 
 
 (custom-set-variables
