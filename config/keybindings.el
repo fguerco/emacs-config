@@ -11,6 +11,4 @@
   (dolist (mapping key-mappings)
     (global-set-key (kbd (pop mapping)) (pop mapping))))
 
-(autoload 'ibuffer "ibuffer" "List buffers." t)
-
 ;;(windmove-default-keybindings)

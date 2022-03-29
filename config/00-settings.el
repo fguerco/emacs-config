@@ -9,3 +9,4 @@
 
 ;; (require 'lsp-mode)
 
+(autoload 'ibuffer "ibuffer" "List buffers." t)

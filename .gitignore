@@ -2,3 +2,6 @@ auto-save-list
 backups
 elpa
 request
+.lsp-session*
+\#*\#
+tutorial
