@@ -8,7 +8,7 @@
 (add-hook 'slime-connected-hook
           (lambda ()
             (slime-scratch)
-            (global-set-key (kbd "<f7>") 'open-slime-scratch)))
+            (global-set-key (kbd "<f7>") 'slime-scratch)))
 
 
 (add-hook 'slime-mode-hook
