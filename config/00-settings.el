@@ -1,9 +1,6 @@
-(let ((default-directory  "~/.emacs.d/modules"))
+(let ((default-directory  (format "%smodules" user-emacs-directory)))
   (normal-top-level-add-subdirs-to-load-path))
 
-
-(setq backup-directory-alist
-          `(("." . ,(concat user-emacs-directory "backups"))))
 
 (setq inhibit-startup-message t)
 

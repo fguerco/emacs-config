@@ -1,0 +1,2 @@
+(ivy-mode)
+(counsel-mode)
