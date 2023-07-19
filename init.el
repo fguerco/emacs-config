@@ -10,7 +10,7 @@
  '(custom-enabled-themes '(tango-dark))
  '(indent-tabs-mode nil)
  '(package-selected-packages
-   '(slime-company company projectile-rails counsel swiper ivy popup elisp-slime-nav auto-complete restclient-test ruby-tools ruby-end rbenv dash ibuffer-projectile ## projectile lsp-mode request solarized-theme slime rainbow-delimiters paredit))
+   '(inf-ruby geiser-racket geiser-guile geiser restclient company-restclient slime-company company projectile-rails counsel swiper ivy popup elisp-slime-nav auto-complete restclient-test ruby-tools ruby-end rbenv dash ibuffer-projectile ## projectile lsp-mode request solarized-theme slime rainbow-delimiters paredit))
  '(show-paren-mode t)
  '(warning-suppress-log-types '((comp))))
 
