@@ -1,7 +1,11 @@
+;; -*- lexical-binding: t; -*-
 
-(let ((load-prog-mode (lambda () (display-line-numbers-mode))))
-  (add-hook 'prog-mode-hook load-prog-mode)
-  (add-hook 'text-mode-hook load-prog-mode))
+(let ((load-lisp
+       (lambda ()
+         (prettify-symbols-mode)
+         (rainbow-delimiters-mode))))
 
+  (add-hook 'prog-mode-hook #'company-mode)
 
-(add-hook 'prog-mode (lambda () (company-mode)))
+  (dolist (hook '(scheme-mode-hook lisp-mode-hook))
+    (add-hook hook load-lisp)))
