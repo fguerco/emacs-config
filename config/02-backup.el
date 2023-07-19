@@ -1,3 +1,4 @@
+;; -*- lexical-binding: t -*-
 
 (let* ((one-week (* 60 60 24 7))
        (backup-dir (format "%sbackups" user-emacs-directory))
