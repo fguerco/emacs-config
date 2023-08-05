@@ -18,7 +18,8 @@
 (add-hook 'slime-mode-hook
           (lambda ()
             (slime-setup '(slime-fancy slime-company))
-            (local-unset-key (kbd "C-c RET"))
-            (define-key slime-mode-map (kbd "C-c RET") 'slime-macroexpand-1)
-            (define-key slime-mode-map (kbd "C-c C-RET") 'slime-macroexpand-all)))
+            (local-unset-key (kbd "C-c <return>"))
+            (local-unset-key (kbd "C-c C-<return>"))
+            (define-key slime-mode-indirect-map (kbd "C-c <return>") 'slime-macroexpand-1)
+            (define-key slime-mode-indirect-map (kbd "C-c C-<return>") 'slime-macroexpand-all)))
 

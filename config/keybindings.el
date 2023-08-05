@@ -1,5 +1,6 @@
 (let ((key-mappings
-       '(("C-c /" comment-region)
+       '(("C-c C-w" kill-this-buffer)
+         ("C-c /" comment-region)
          ("C-c ;" uncomment-region)
          ("C-<f5>" global-display-line-numbers-mode)
          ("<f6>" slime)
@@ -7,7 +8,11 @@
          ("C-c C--" shrink-window)
          ("C-c C-+" enlarge-window)
          ("C-c C-=" enlarge-window)
-         ("C-x C-b" ibuffer))))
+         ("C-x C-b" ibuffer)
+         ("C-c <up>" windmove-up)
+         ("C-c <down>" windmove-down)
+         ("C-c <left>" windmove-left)
+         ("C-c <right>" windmove-right))))
   (dolist (mapping key-mappings)
     (global-set-key (kbd (pop mapping)) (pop mapping))))
 

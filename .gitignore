@@ -6,6 +6,9 @@ request
 \#*\#
 tutorial
 projectile-bookmarks.eld
+/transient
 /eln-cache
 /projects
 /projectile.cache
+/session.*
+/eshell/history
