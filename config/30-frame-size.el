@@ -6,7 +6,7 @@
 
 
 (let ((frame-config-graphic
-       '((tool-bar-lines . 1)
+       '((tool-bar-lines . 0)
          (width . 100)
          (height . 32)))
       (frame-config-term '( (tool-bar-lines . 0))))

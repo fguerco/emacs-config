@@ -9,6 +9,7 @@
 (autoload 'ibuffer "ibuffer" "List buffers." t)
 
 (load-theme 'wombat)
+;;(load-theme 'solarized-selenized-dark)
 
 (global-display-line-numbers-mode 1)
 (global-hl-line-mode 1)

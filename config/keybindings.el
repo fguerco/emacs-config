@@ -1,5 +1,5 @@
 (let ((key-mappings
-       '(("C-c w" kill-this-buffer)
+       '(("C-x w" kill-this-buffer)
          ("C-c /" comment-region)
          ("C-c ;" uncomment-region)
          ("C-<f5>" global-display-line-numbers-mode)
