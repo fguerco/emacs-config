@@ -13,3 +13,4 @@
 (define-scratch-command ruby ruby-mode)
 (define-scratch-command python python-mode)
 (define-scratch-command haskell haskell-mode)
+(define-scratch-command scheme scheme-mode)
