@@ -12,7 +12,7 @@
    '("833ddce3314a4e28411edf3c6efde468f6f2616fc31e17a62587d6a9255f4633" "51ec7bfa54adf5fff5d466248ea6431097f5a18224788d0bd7eb1257a4f7b773" default))
  '(indent-tabs-mode nil)
  '(package-selected-packages
-   '(ac-haskell-process lsp-ivy lsp-haskell haskell-mode cider inf-ruby geiser-racket geiser-guile geiser restclient company-restclient slime-company company projectile-rails counsel swiper ivy popup elisp-slime-nav auto-complete restclient-test ruby-tools ruby-end rbenv dash ibuffer-projectile ## projectile lsp-mode request solarized-theme slime rainbow-delimiters paredit))
+   '(auto-virtualenvwrapper lsp-ivy lsp-haskell haskell-mode cider inf-ruby geiser-racket geiser-guile geiser restclient company-restclient slime-company company projectile-rails counsel swiper ivy popup elisp-slime-nav auto-complete restclient-test ruby-tools ruby-end rbenv dash ibuffer-projectile ## projectile lsp-mode request solarized-theme slime rainbow-delimiters paredit))
  '(show-paren-mode t)
  '(warning-suppress-log-types '((comp))))
 

@@ -2,7 +2,8 @@
 
 (load (expand-file-name "~/.quicklisp/slime-helper") t)
 
-(setq inferior-lisp-program user/lisp-program)
+(setq slime-lisp-implementations user/lisp-implementations)
+(setq slime-default-lisp user/slime-default-lisp)
 
 (defun user/slime-connected ()
   (slime-scratch)
