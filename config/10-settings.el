@@ -1,5 +1,7 @@
 ;; -*- lexical-binding: t; -*-
 
+(require 'dired-x)
+
 (let ((default-directory  (format "%smodules" user-emacs-directory)))
   (normal-top-level-add-subdirs-to-load-path))
 
