@@ -10,14 +10,8 @@
 
 (autoload 'ibuffer "ibuffer" "List buffers." t)
 
-(load-theme 'wombat)
-;;(load-theme 'solarized-selenized-dark)
-(set-face-background 'default "#111")  ; default - "#242424"
-
-
 (global-display-line-numbers-mode 1)
 (global-hl-line-mode 1)
-(set-face-attribute 'hl-line nil :inherit nil :background "gray18")
 
 (setq fill-column 80)
 
