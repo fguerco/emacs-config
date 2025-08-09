@@ -1,7 +1,5 @@
 ;; -*- lexical-binding: t; -*-
 
-(load (expand-file-name "~/.quicklisp/slime-helper") t)
-
 (setq slime-lisp-implementations user/lisp-implementations)
 (setq slime-default-lisp user/slime-default-lisp)
 

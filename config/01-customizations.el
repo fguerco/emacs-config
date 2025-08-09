@@ -3,10 +3,6 @@
 ;; Default init variables.
 (defvar user/font-height 120)
 (defvar user/font-family "DejaVu Sans Mono")
-(defvar user/font-foundry "Pfed")
-(defvar user/font-slant 'normal)
-(defvar user/font-weight 'normal)
-(defvar user/font-width 'normal)
 
 (defvar user/lisp-implementations (list '(sbcl ("sbcl"))))
 (defvar user/slime-default-lisp 'sbcl)
