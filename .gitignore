@@ -18,3 +18,7 @@ games/
 eshell/
 .cache/
 /recentf
+/network-security.data
+/tramp
+/image-dired/
+/eln-cache.backup/
