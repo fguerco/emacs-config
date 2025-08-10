@@ -17,6 +17,7 @@ projectile-bookmarks.eld
 games/
 eshell/
 .cache/
+/recentf
 /eln-cache.backup/
 /elpa.backup/
 /image-dired/
